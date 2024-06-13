@@ -16,7 +16,8 @@
   max-height: 800px;
   height: 100vh;
   background: url(../images/background_header.svg);
-  background-size: cover;
+  background-size: contain;
+  background-position: top right;
 }
 
 .nav {
@@ -37,12 +38,12 @@
   margin: 0;
   gap: 20px;
   list-style-type: none;
+  font-weight: 500;
 }
 
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .header__title {
