@@ -88,7 +88,7 @@
                 class="recipes__iframe"
               ></iframe>
               <p class="recipes__video-caption">
-                <span>French press recipe</span>~15 min
+                <span>French press recipe</span> ~15 min
               </p>
             </div>
           </div>
@@ -104,6 +104,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="guests" class="form__label">
@@ -113,11 +114,17 @@
                   class="form__input"
                   placeholder="1-8"
                   id="guests"
+                  required
                 />
               </label>
               <label for="when" class="form__label">
                 Date & time *
-                <input type="datetime-local" class="form__input" id="when" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="when"
+                  required
+                />
               </label>
               <label for="message" class="form__label">
                 Your email *
@@ -126,6 +133,7 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="message"
+                  required
                 />
               </label>
             </fieldset>
@@ -199,7 +207,7 @@
               </ul>
             </li>
             <li class="card">
-              <h3 class="class_title">Baked Goods</h3>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
@@ -263,7 +271,7 @@
             class="footer__logo"
           />
           <div>
-            <h3 class="footer__social-heading">Social media</h3>
+            <h3 class="footer__social-heading" id="contact">Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">

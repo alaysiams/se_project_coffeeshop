@@ -8,8 +8,7 @@
   max-height: 800px;
   height: 100vh;
   box-sizing: border-box;
-  background-color: #fff url("../images/background_header.svg") no-repeat
-    center/cover;
+  background: #fff url("../images/background_header.svg") no-repeat center/cover;
 }
 
 .header__title {
@@ -58,6 +57,6 @@
   box-sizing: border-box;
 }
 
-.header__paragrah {
+.header__paragraph {
   margin: 0;
 }
