@@ -16,7 +16,7 @@
 }
 
 .footer__social-heading {
-  margin: 0 0 20px;
+  margin: auto;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
@@ -29,11 +29,11 @@
 }
 
 .footer__list-item {
-  margin: 0 0 16px;
+  margin-top: 20px;
 }
 
 .footer__list-item:last-child {
-  margin-bottom: 0;
+  margin-top: 16px;
 }
 
 .footer__social-link {
@@ -43,6 +43,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
