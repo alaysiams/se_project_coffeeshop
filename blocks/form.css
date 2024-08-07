@@ -36,6 +36,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #838383;
+  gap: 32px;
 }
 
 .form__button {
