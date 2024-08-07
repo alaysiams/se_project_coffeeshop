@@ -18,15 +18,17 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  gap: 12px;
 }
 
 .form__input {
   display: block;
   width: 100%;
-  padding: 0;
+  padding-left: 10px;
   box-sizing: border-box;
   margin-top: 8px;
+  margin-bottom: 32px;
   border-radius: 4px;
   height: 60px;
   font-size: 20px;
